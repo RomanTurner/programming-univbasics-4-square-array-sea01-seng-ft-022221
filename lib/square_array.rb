@@ -1,10 +1,8 @@
 def square_array(array)
   new_array = []
- 
   array.length.times do |index|
   new_array.push(array[index] ** index)
 end
-p new_array
 new_array
 end 
 

@@ -1,9 +1,9 @@
 def square_array(array)
-  arr = []
-  array.length.times do 
-  |i| arr << i ** 2 
-  arr
-  end
+  new_array = []
+ 
+  array.length.times do |index|
+  new_array.push(array[index] ** index)
+  
 end 
 
 p square_array([1, 2 ,3])
